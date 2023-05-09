@@ -5,4 +5,3 @@ def sum(a, b):
         return a
     else:
         return sum(a - 1, b - 1) + 2
-    
